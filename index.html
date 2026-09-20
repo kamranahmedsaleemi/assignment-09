@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Pages</title>
+
+    <style>
+
+        /* =========================
+           FIRST LOGIN DESIGN
+        ========================= */
+
+        .first-page {
+            height: 650px;
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin-bottom: 50px;
+        }
+
+        .signin {
+            width: 50%;
+            background-color: white;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        .signin h1 {
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+
+        .social {
+            margin-bottom: 25px;
+        }
+
+        .social span {
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .account-text {
+            color: gray;
+            margin-bottom: 15px;
+        }
+
+        .signin input {
+            width: 65%;
+            padding: 18px;
+            margin: 10px;
+            border: none;
+            background-color: #eef0f5;
+            font-size: 16px;
+        }
+
+        .forgot {
+            color: gray;
+            font-size: 18px;
+            margin: 25px;
+        }
+
+        .signin button {
+            background-color: #e6531d;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            padding: 16px 70px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .hello {
+            width: 50%;
+            background-color: #df402f;
+            color: white;
+            text-align: center;
+            padding-top: 200px;
+        }
+
+        .hello h1 {
+            font-size: 42px;
+        }
+
+        .hello p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin: 25px 100px;
+        }
+
+        .hello button {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            border-radius: 30px;
+            padding: 15px 80px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+
+        /* =========================
+           SECOND FACEBOOK DESIGN
+        ========================= */
+
+        .facebook-page {
+            min-height: 650px;
+            background-color: #f0f2f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            font-family: Arial, sans-serif;
+        }
+
+        .facebook-left {
+            width: 450px;
+        }
+
+        .facebook-left h1 {
+            color: #1877f2;
+            font-size: 60px;
+            margin: 0;
+        }
+
+        .facebook-left p {
+            font-size: 25px;
+            line-height: 1.3;
+        }
+
+        .facebook-login {
+            width: 400px;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px gray;
+            text-align: center;
+        }
+
+        .facebook-login input {
+            width: 90%;
+            padding: 17px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 15px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .password {
+            display: block;
+            color: #1877f2;
+            margin: 25px;
+        }
+
+        .line {
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        .create-button {
+            background-color: #42b72a;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 6px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- =========================
+         FIRST LOGIN PAGE
+    ========================== -->
+
+    <div class="first-page">
+
+        <div class="signin">
+
+            <h1>Sign in</h1>
+
+            <div class="social">
+                <span style="color:#1877f2;">f</span>
+                <span style="color:#d35400;">G+</span>
+                <span style="color:#075985;">in</span>
+            </div>
+
+            <p class="account-text">
+                or use your account
+            </p>
+
+            <input type="email" placeholder="Email">
+            <br>
+
+            <input type="password" placeholder="Password">
+
+            <p class="forgot">
+                Forgot your password?
+            </p>
+
+            <button>
+                SIGN IN
+            </button>
+
+        </div>
+
+
+        <div class="hello">
+
+            <h1>Hello, Friend!</h1>
+
+            <p>
+                Enter your personal details and start
+                journey with us
+            </p>
+
+            <button>
+                SIGN UP
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         SECOND FACEBOOK PAGE
+    ========================== -->
+
+    <div class="facebook-page">
+
+        <div class="facebook-left">
+
+            <h1>facebook</h1>
+
+            <p>
+                Connect with friends and the world
+                around you on Facebook.
+            </p>
+
+        </div>
+
+
+        <div class="facebook-login">
+
+            <input
+                type="text"
+                placeholder="Email or phone number"
+            >
+
+            <input
+                type="password"
+                placeholder="Password"
+            >
+
+            <button class="login-button">
+                Login
+            </button>
+
+            <a href="#" class="password">
+                Forgot password?
+            </a>
+
+            <div class="line"></div>
+
+            <button class="create-button">
+                Create new account
+            </button>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
